@@ -4,14 +4,14 @@ import java.io.*;
 public class EchoEffect {
     public static void main(String[] args) {
         try {
-            // Load audio file
+            // Load audio file.
             File audioFile = new File("input.wav");
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(audioFile);
             AudioFormat format = audioInputStream.getFormat();
             byte[] audioData = new byte[(int) audioFile.length()];
             audioInputStream.read(audioData);
 
-            // Define echo parameters
+            // Define echo parameters.
             float sampleRate = format.getSampleRate();
             int numChannels = format.getChannels();
             float delayTime = 0.5f; // in seconds
