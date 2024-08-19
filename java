@@ -4,7 +4,7 @@ import java.io.*;
 public class EchoEffect {
     public static void main(String[] args) {
         try {
-            // Load audio file.
+            // Load audio file.000000000000020
             File audioFile = new File("input.wav");
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(audioFile);
             AudioFormat format = audioInputStream.getFormat();
