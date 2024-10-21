@@ -1,10 +1,11 @@
+// 000000000001111111
 import javax.sound.sampled.*;
 import java.io.*;
 
 public class EchoEffect {
     public static void main(String[] args) {
         try {
-            // Load audio file.000000000001111111
+            // Load audio file
             File audioFile = new File("input.wav");
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(audioFile);
             AudioFormat format = audioInputStream.getFormat();
