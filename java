@@ -1,4 +1,4 @@
-// 000000000001111111
+// 00000000
 import javax.sound.sampled.*;
 import java.io.*;
 
